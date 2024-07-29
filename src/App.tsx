@@ -1,6 +1,6 @@
 import "./App.css";
 import { addTwo } from "../scripts/addTwo";
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import {
   Text,
   Center,
@@ -17,16 +17,16 @@ function App() {
   const [secondAddend, setSecondAddend] = useState(0);
   const [sum, setSum] = useState(0);
 
-  const handleFirstAddendChange = (e) => {
-    setFirstAddend(e.target.value);
+  const handleFirstAddendChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setFirstAddend(+e.target.value);
   };
 
-  const handleSecondAddendChange = (e) => {
-    setSecondAddend(e.target.value);
+  const handleSecondAddendChange = (e: ChangeEvent<HTMLInputElement>) => {
+    setSecondAddend(+e.target.value);
   };
 
   const handleSum = () => {
-    setSum(addTwo(+firstAddend, +secondAddend));
+    setSum(addTwo(firstAddend, secondAddend));
   };
 
   return (
