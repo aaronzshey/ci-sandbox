@@ -1,2 +1,2 @@
 # ci-sandbox
-[![.github/workflows/node.js.yml](https://github.com/aaronzshey/ci-sandbox/actions/workflows/node.js.yml/badge.svg)](https://github.com/aaronzshey/ci-sandbox/actions/workflows/node.js.yml)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/aaronzshey/ci-sandbox/node.js.yml?style=for-the-badge&logo=jest&label=%20&labelColor=%2398435c)
