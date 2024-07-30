@@ -8,7 +8,9 @@
     "preview": "vite preview",
     "test": "jest",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.8.2",
@@ -28,11 +30,13 @@
     "@storybook/react": "^8.2.6",
     "@storybook/react-vite": "^8.2.6",
     "@storybook/test": "^8.2.6",
+    "@storybook/test-runner": "^0.19.1",
     "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react-swc": "^3.5.0",
     "autoprefixer": "^10.4.19",
+    "chromatic": "^11.5.6",
     "jest": "^29.7.0",
     "postcss": "^8.4.40",
     "storybook": "^8.2.6",
