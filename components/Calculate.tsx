@@ -53,7 +53,7 @@ export default function Calculate() {
             </Button>
           </HStack>
         </FormControl>
-        <Text className="font-black text-6xl">Sum: {sum || ""}</Text>
+        <Text className="font-black text-6xl">Sum:</Text>
       </VStack>
     </Center>
   );
